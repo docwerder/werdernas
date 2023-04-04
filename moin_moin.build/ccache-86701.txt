@@ -1,0 +1,639 @@
+[2022-12-07T17:11:24.372893 86809] === CCACHE master.971f1183 STARTED =========================================
+[2022-12-07T17:11:24.373043 86808] === CCACHE master.971f1183 STARTED =========================================
+[2022-12-07T17:11:24.373044 86806] === CCACHE master.971f1183 STARTED =========================================
+[2022-12-07T17:11:24.372893 86809] Config: (default) absolute_paths_in_stderr = false
+[2022-12-07T17:11:24.372893 86809] Config: (default) base_dir = 
+[2022-12-07T17:11:24.372893 86809] Config: (environment) cache_dir = /Users/joerg/Library/Caches/Nuitka/ccache
+[2022-12-07T17:11:24.372893 86809] Config: (default) compiler = 
+[2022-12-07T17:11:24.372893 86809] Config: (default) compiler_check = mtime
+[2022-12-07T17:11:24.372893 86809] Config: (default) compiler_type = auto
+[2022-12-07T17:11:24.372893 86809] Config: (default) compression = true
+[2022-12-07T17:11:24.372893 86809] Config: (default) compression_level = 0
+[2022-12-07T17:11:24.372893 86809] Config: (default) cpp_extension = 
+[2022-12-07T17:11:24.372893 86809] Config: (default) debug = false
+[2022-12-07T17:11:24.372893 86809] Config: (default) debug_dir = 
+[2022-12-07T17:11:24.372893 86809] Config: (default) depend_mode = false
+[2022-12-07T17:11:24.372893 86809] Config: (default) direct_mode = true
+[2022-12-07T17:11:24.372893 86809] Config: (default) disable = false
+[2022-12-07T17:11:24.372893 86809] Config: (default) extra_files_to_hash = 
+[2022-12-07T17:11:24.372893 86809] Config: (default) file_clone = false
+[2022-12-07T17:11:24.372893 86809] Config: (default) hard_link = false
+[2022-12-07T17:11:24.372893 86809] Config: (default) hash_dir = true
+[2022-12-07T17:11:24.372893 86809] Config: (default) ignore_headers_in_manifest = 
+[2022-12-07T17:11:24.372893 86809] Config: (default) ignore_options = 
+[2022-12-07T17:11:24.372893 86809] Config: (default) inode_cache = false
+[2022-12-07T17:11:24.372893 86809] Config: (default) keep_comments_cpp = false
+[2022-12-07T17:11:24.372893 86809] Config: (default) limit_multiple = 0.8
+[2022-12-07T17:11:24.372893 86809] Config: (environment) log_file = /Users/joerg/repos/werdernas/moin_moin.build/ccache-86701.txt
+[2022-12-07T17:11:24.372893 86809] Config: (default) max_files = 0
+[2022-12-07T17:11:24.372893 86809] Config: (default) max_size = 5.0G
+[2022-12-07T17:11:24.372893 86809] Config: (default) path = 
+[2022-12-07T17:11:24.372893 86809] Config: (default) pch_external_checksum = false
+[2022-12-07T17:11:24.372893 86809] Config: (default) prefix_command = 
+[2022-12-07T17:11:24.372893 86809] Config: (default) prefix_command_cpp = 
+[2022-12-07T17:11:24.372893 86809] Config: (default) read_only = false
+[2022-12-07T17:11:24.372893 86809] Config: (default) read_only_direct = false
+[2022-12-07T17:11:24.372893 86809] Config: (default) recache = false
+[2022-12-07T17:11:24.372893 86809] Config: (default) run_second_cpp = true
+[2022-12-07T17:11:24.372893 86809] Config: (environment) sloppiness = include_file_mtime, include_file_ctime
+[2022-12-07T17:11:24.372893 86809] Config: (default) stats = true
+[2022-12-07T17:11:24.372893 86809] Config: (default) temporary_dir = /Users/joerg/Library/Caches/Nuitka/ccache/tmp
+[2022-12-07T17:11:24.372893 86809] Config: (default) umask = 
+[2022-12-07T17:11:24.373067 86809] Command line: /Users/joerg/Library/Caches/Nuitka/downloads/ccache/v4.2.1/ccache /usr/bin/clang -o static_src/CompiledCellType.o -c -flto -std=c11 -fvisibility=hidden -fwrapv -pipe -w -fvisibility=hidden -fvisibility-inlines-hidden --target=x86_64-apple-macos10.9 -O3 -D_XOPEN_SOURCE -D__NUITKA_NO_ASSERT__ -D_NUITKA_CONSTANTS_FROM_MACOS_SECTION -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -I/Users/joerg/opt/anaconda3/envs/pyside2_dev/include/python3.10 -I. -I/Users/joerg/opt/anaconda3/envs/pyside2_dev/lib/python3.10/site-packages/nuitka/build/include -I/Users/joerg/opt/anaconda3/envs/pyside2_dev/lib/python3.10/site-packages/nuitka/build/static_src static_src/CompiledCellType.c
+[2022-12-07T17:11:24.373044 86807] === CCACHE master.971f1183 STARTED =========================================
+[2022-12-07T17:11:24.373126 86809] Hostname: WerderInsignia.fritz.box
+[2022-12-07T17:11:24.373142 86809] Working directory: /Users/joerg/repos/werdernas/moin_moin.build
+[2022-12-07T17:11:24.373150 86809] Compiler type: clang
+[2022-12-07T17:11:24.373044 86806] Config: (default) absolute_paths_in_stderr = false
+[2022-12-07T17:11:24.373044 86806] Config: (default) base_dir = 
+[2022-12-07T17:11:24.373044 86806] Config: (environment) cache_dir = /Users/joerg/Library/Caches/Nuitka/ccache
+[2022-12-07T17:11:24.373044 86806] Config: (default) compiler = 
+[2022-12-07T17:11:24.373044 86806] Config: (default) compiler_check = mtime
+[2022-12-07T17:11:24.373044 86806] Config: (default) compiler_type = auto
+[2022-12-07T17:11:24.373044 86806] Config: (default) compression = true
+[2022-12-07T17:11:24.373044 86806] Config: (default) compression_level = 0
+[2022-12-07T17:11:24.373044 86806] Config: (default) cpp_extension = 
+[2022-12-07T17:11:24.373044 86806] Config: (default) debug = false
+[2022-12-07T17:11:24.373044 86806] Config: (default) debug_dir = 
+[2022-12-07T17:11:24.373044 86806] Config: (default) depend_mode = false
+[2022-12-07T17:11:24.373044 86806] Config: (default) direct_mode = true
+[2022-12-07T17:11:24.373044 86806] Config: (default) disable = false
+[2022-12-07T17:11:24.373044 86806] Config: (default) extra_files_to_hash = 
+[2022-12-07T17:11:24.373044 86806] Config: (default) file_clone = false
+[2022-12-07T17:11:24.373044 86806] Config: (default) hard_link = false
+[2022-12-07T17:11:24.373044 86806] Config: (default) hash_dir = true
+[2022-12-07T17:11:24.373044 86806] Config: (default) ignore_headers_in_manifest = 
+[2022-12-07T17:11:24.373044 86806] Config: (default) ignore_options = 
+[2022-12-07T17:11:24.373044 86806] Config: (default) inode_cache = false
+[2022-12-07T17:11:24.373044 86806] Config: (default) keep_comments_cpp = false
+[2022-12-07T17:11:24.373044 86806] Config: (default) limit_multiple = 0.8
+[2022-12-07T17:11:24.373044 86806] Config: (environment) log_file = /Users/joerg/repos/werdernas/moin_moin.build/ccache-86701.txt
+[2022-12-07T17:11:24.373044 86806] Config: (default) max_files = 0
+[2022-12-07T17:11:24.373044 86806] Config: (default) max_size = 5.0G
+[2022-12-07T17:11:24.373044 86806] Config: (default) path = 
+[2022-12-07T17:11:24.373044 86806] Config: (default) pch_external_checksum = false
+[2022-12-07T17:11:24.373044 86806] Config: (default) prefix_command = 
+[2022-12-07T17:11:24.373044 86806] Config: (default) prefix_command_cpp = 
+[2022-12-07T17:11:24.373044 86806] Config: (default) read_only = false
+[2022-12-07T17:11:24.373044 86806] Config: (default) read_only_direct = false
+[2022-12-07T17:11:24.373044 86806] Config: (default) recache = false
+[2022-12-07T17:11:24.373044 86806] Config: (default) run_second_cpp = true
+[2022-12-07T17:11:24.373044 86806] Config: (environment) sloppiness = include_file_mtime, include_file_ctime
+[2022-12-07T17:11:24.373044 86806] Config: (default) stats = true
+[2022-12-07T17:11:24.373044 86806] Config: (default) temporary_dir = /Users/joerg/Library/Caches/Nuitka/ccache/tmp
+[2022-12-07T17:11:24.373044 86806] Config: (default) umask = 
+[2022-12-07T17:11:24.373213 86806] Command line: /Users/joerg/Library/Caches/Nuitka/downloads/ccache/v4.2.1/ccache /usr/bin/clang -o __loader.o -c -flto -std=c11 -fvisibility=hidden -fwrapv -pipe -w -fvisibility=hidden -fvisibility-inlines-hidden --target=x86_64-apple-macos10.9 -O3 -D_XOPEN_SOURCE -D__NUITKA_NO_ASSERT__ -D_NUITKA_CONSTANTS_FROM_MACOS_SECTION -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -I/Users/joerg/opt/anaconda3/envs/pyside2_dev/include/python3.10 -I. -I/Users/joerg/opt/anaconda3/envs/pyside2_dev/lib/python3.10/site-packages/nuitka/build/include -I/Users/joerg/opt/anaconda3/envs/pyside2_dev/lib/python3.10/site-packages/nuitka/build/static_src __loader.c
+[2022-12-07T17:11:24.373224 86806] Hostname: WerderInsignia.fritz.box
+[2022-12-07T17:11:24.373229 86806] Working directory: /Users/joerg/repos/werdernas/moin_moin.build
+[2022-12-07T17:11:24.373044 86807] Config: (default) absolute_paths_in_stderr = false
+[2022-12-07T17:11:24.373044 86807] Config: (default) base_dir = 
+[2022-12-07T17:11:24.373044 86807] Config: (environment) cache_dir = /Users/joerg/Library/Caches/Nuitka/ccache
+[2022-12-07T17:11:24.373044 86807] Config: (default) compiler = 
+[2022-12-07T17:11:24.373044 86807] Config: (default) compiler_check = mtime
+[2022-12-07T17:11:24.373044 86807] Config: (default) compiler_type = auto
+[2022-12-07T17:11:24.373044 86807] Config: (default) compression = true
+[2022-12-07T17:11:24.373044 86807] Config: (default) compression_level = 0
+[2022-12-07T17:11:24.373044 86807] Config: (default) cpp_extension = 
+[2022-12-07T17:11:24.373044 86807] Config: (default) debug = false
+[2022-12-07T17:11:24.373044 86807] Config: (default) debug_dir = 
+[2022-12-07T17:11:24.373044 86807] Config: (default) depend_mode = false
+[2022-12-07T17:11:24.373044 86807] Config: (default) direct_mode = true
+[2022-12-07T17:11:24.373044 86807] Config: (default) disable = false
+[2022-12-07T17:11:24.373044 86807] Config: (default) extra_files_to_hash = 
+[2022-12-07T17:11:24.373044 86807] Config: (default) file_clone = false
+[2022-12-07T17:11:24.373044 86807] Config: (default) hard_link = false
+[2022-12-07T17:11:24.373044 86807] Config: (default) hash_dir = true
+[2022-12-07T17:11:24.373044 86807] Config: (default) ignore_headers_in_manifest = 
+[2022-12-07T17:11:24.373044 86807] Config: (default) ignore_options = 
+[2022-12-07T17:11:24.373044 86807] Config: (default) inode_cache = false
+[2022-12-07T17:11:24.373044 86807] Config: (default) keep_comments_cpp = false
+[2022-12-07T17:11:24.373044 86807] Config: (default) limit_multiple = 0.8
+[2022-12-07T17:11:24.373044 86807] Config: (environment) log_file = /Users/joerg/repos/werdernas/moin_moin.build/ccache-86701.txt
+[2022-12-07T17:11:24.373044 86807] Config: (default) max_files = 0
+[2022-12-07T17:11:24.373044 86807] Config: (default) max_size = 5.0G
+[2022-12-07T17:11:24.373044 86807] Config: (default) path = 
+[2022-12-07T17:11:24.373044 86807] Config: (default) pch_external_checksum = false
+[2022-12-07T17:11:24.373044 86807] Config: (default) prefix_command = 
+[2022-12-07T17:11:24.373044 86807] Config: (default) prefix_command_cpp = 
+[2022-12-07T17:11:24.373044 86807] Config: (default) read_only = false
+[2022-12-07T17:11:24.373044 86807] Config: (default) read_only_direct = false
+[2022-12-07T17:11:24.373044 86807] Config: (default) recache = false
+[2022-12-07T17:11:24.373044 86807] Config: (default) run_second_cpp = true
+[2022-12-07T17:11:24.373044 86807] Config: (environment) sloppiness = include_file_mtime, include_file_ctime
+[2022-12-07T17:11:24.373044 86807] Config: (default) stats = true
+[2022-12-07T17:11:24.373044 86807] Config: (default) temporary_dir = /Users/joerg/Library/Caches/Nuitka/ccache/tmp
+[2022-12-07T17:11:24.373044 86807] Config: (default) umask = 
+[2022-12-07T17:11:24.373231 86807] Command line: /Users/joerg/Library/Caches/Nuitka/downloads/ccache/v4.2.1/ccache /usr/bin/clang -o module.__main__.o -c -flto -std=c11 -fvisibility=hidden -fwrapv -pipe -w -fvisibility=hidden -fvisibility-inlines-hidden --target=x86_64-apple-macos10.9 -O3 -D_XOPEN_SOURCE -D__NUITKA_NO_ASSERT__ -D_NUITKA_CONSTANTS_FROM_MACOS_SECTION -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -I/Users/joerg/opt/anaconda3/envs/pyside2_dev/include/python3.10 -I. -I/Users/joerg/opt/anaconda3/envs/pyside2_dev/lib/python3.10/site-packages/nuitka/build/include -I/Users/joerg/opt/anaconda3/envs/pyside2_dev/lib/python3.10/site-packages/nuitka/build/static_src module.__main__.c
+[2022-12-07T17:11:24.373234 86806] Compiler type: clang
+[2022-12-07T17:11:24.373043 86808] Config: (default) absolute_paths_in_stderr = false
+[2022-12-07T17:11:24.373043 86808] Config: (default) base_dir = 
+[2022-12-07T17:11:24.373043 86808] Config: (environment) cache_dir = /Users/joerg/Library/Caches/Nuitka/ccache
+[2022-12-07T17:11:24.373043 86808] Config: (default) compiler = 
+[2022-12-07T17:11:24.373043 86808] Config: (default) compiler_check = mtime
+[2022-12-07T17:11:24.373043 86808] Config: (default) compiler_type = auto
+[2022-12-07T17:11:24.373043 86808] Config: (default) compression = true
+[2022-12-07T17:11:24.373043 86808] Config: (default) compression_level = 0
+[2022-12-07T17:11:24.373043 86808] Config: (default) cpp_extension = 
+[2022-12-07T17:11:24.373043 86808] Config: (default) debug = false
+[2022-12-07T17:11:24.373043 86808] Config: (default) debug_dir = 
+[2022-12-07T17:11:24.373043 86808] Config: (default) depend_mode = false
+[2022-12-07T17:11:24.373043 86808] Config: (default) direct_mode = true
+[2022-12-07T17:11:24.373043 86808] Config: (default) disable = false
+[2022-12-07T17:11:24.373043 86808] Config: (default) extra_files_to_hash = 
+[2022-12-07T17:11:24.373043 86808] Config: (default) file_clone = false
+[2022-12-07T17:11:24.373043 86808] Config: (default) hard_link = false
+[2022-12-07T17:11:24.373043 86808] Config: (default) hash_dir = true
+[2022-12-07T17:11:24.373043 86808] Config: (default) ignore_headers_in_manifest = 
+[2022-12-07T17:11:24.373043 86808] Config: (default) ignore_options = 
+[2022-12-07T17:11:24.373043 86808] Config: (default) inode_cache = false
+[2022-12-07T17:11:24.373043 86808] Config: (default) keep_comments_cpp = false
+[2022-12-07T17:11:24.373043 86808] Config: (default) limit_multiple = 0.8
+[2022-12-07T17:11:24.373043 86808] Config: (environment) log_file = /Users/joerg/repos/werdernas/moin_moin.build/ccache-86701.txt
+[2022-12-07T17:11:24.373043 86808] Config: (default) max_files = 0
+[2022-12-07T17:11:24.373043 86808] Config: (default) max_size = 5.0G
+[2022-12-07T17:11:24.373043 86808] Config: (default) path = 
+[2022-12-07T17:11:24.373043 86808] Config: (default) pch_external_checksum = false
+[2022-12-07T17:11:24.373043 86808] Config: (default) prefix_command = 
+[2022-12-07T17:11:24.373043 86808] Config: (default) prefix_command_cpp = 
+[2022-12-07T17:11:24.373043 86808] Config: (default) read_only = false
+[2022-12-07T17:11:24.373043 86808] Config: (default) read_only_direct = false
+[2022-12-07T17:11:24.373043 86808] Config: (default) recache = false
+[2022-12-07T17:11:24.373043 86808] Config: (default) run_second_cpp = true
+[2022-12-07T17:11:24.373043 86808] Config: (environment) sloppiness = include_file_mtime, include_file_ctime
+[2022-12-07T17:11:24.373043 86808] Config: (default) stats = true
+[2022-12-07T17:11:24.373043 86808] Config: (default) temporary_dir = /Users/joerg/Library/Caches/Nuitka/ccache/tmp
+[2022-12-07T17:11:24.373043 86808] Config: (default) umask = 
+[2022-12-07T17:11:24.373240 86808] Command line: /Users/joerg/Library/Caches/Nuitka/downloads/ccache/v4.2.1/ccache /usr/bin/clang -o static_src/MainProgram.o -c -flto -std=c11 -fvisibility=hidden -fwrapv -pipe -w -fvisibility=hidden -fvisibility-inlines-hidden --target=x86_64-apple-macos10.9 -O3 -D_XOPEN_SOURCE -D__NUITKA_NO_ASSERT__ -D_NUITKA_CONSTANTS_FROM_MACOS_SECTION -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -I/Users/joerg/opt/anaconda3/envs/pyside2_dev/include/python3.10 -I. -I/Users/joerg/opt/anaconda3/envs/pyside2_dev/lib/python3.10/site-packages/nuitka/build/include -I/Users/joerg/opt/anaconda3/envs/pyside2_dev/lib/python3.10/site-packages/nuitka/build/static_src static_src/MainProgram.c
+[2022-12-07T17:11:24.373245 86807] Hostname: WerderInsignia.fritz.box
+[2022-12-07T17:11:24.373261 86808] Hostname: WerderInsignia.fritz.box
+[2022-12-07T17:11:24.373264 86807] Working directory: /Users/joerg/repos/werdernas/moin_moin.build
+[2022-12-07T17:11:24.373267 86808] Working directory: /Users/joerg/repos/werdernas/moin_moin.build
+[2022-12-07T17:11:24.373271 86807] Compiler type: clang
+[2022-12-07T17:11:24.373273 86808] Compiler type: clang
+[2022-12-07T17:11:24.373292 86809] Source file: static_src/CompiledCellType.c
+[2022-12-07T17:11:24.373300 86809] Object file: static_src/CompiledCellType.o
+[2022-12-07T17:11:24.373327 86806] Source file: __loader.c
+[2022-12-07T17:11:24.373334 86806] Object file: __loader.o
+[2022-12-07T17:11:24.373344 86809] Trying direct lookup
+[2022-12-07T17:11:24.373358 86807] Source file: module.__main__.c
+[2022-12-07T17:11:24.373364 86806] Trying direct lookup
+[2022-12-07T17:11:24.373365 86807] Object file: module.__main__.o
+[2022-12-07T17:11:24.373367 86808] Source file: static_src/MainProgram.c
+[2022-12-07T17:11:24.373374 86808] Object file: static_src/MainProgram.o
+[2022-12-07T17:11:24.373396 86807] Trying direct lookup
+[2022-12-07T17:11:24.373410 86808] Trying direct lookup
+[2022-12-07T17:11:24.373432 86806] No manifest with name c9cf2kclipr10uoslc11fa0ql88dr2stc in the cache
+[2022-12-07T17:11:24.373433 86809] No manifest with name 40e38qrds4bspqqjhgklajgl6ousku4d0 in the cache
+[2022-12-07T17:11:24.373502 86807] No manifest with name bbeb4qas95a4a0u0m7j7pi1hpq3l5scqq in the cache
+[2022-12-07T17:11:24.373541 86808] No manifest with name 2a126pgb8k9f3qqife06rlbf6muslb2t2 in the cache
+[2022-12-07T17:11:24.373861 86809] Running preprocessor
+[2022-12-07T17:11:24.373873 86809] Executing /usr/bin/clang -flto -std=c11 -fvisibility=hidden -fwrapv -pipe -w -fvisibility=hidden -fvisibility-inlines-hidden --target=x86_64-apple-macos10.9 -O3 -D_XOPEN_SOURCE -D__NUITKA_NO_ASSERT__ -D_NUITKA_CONSTANTS_FROM_MACOS_SECTION -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -I/Users/joerg/opt/anaconda3/envs/pyside2_dev/include/python3.10 -I. -I/Users/joerg/opt/anaconda3/envs/pyside2_dev/lib/python3.10/site-packages/nuitka/build/include -I/Users/joerg/opt/anaconda3/envs/pyside2_dev/lib/python3.10/site-packages/nuitka/build/static_src -E static_src/CompiledCellType.c
+[2022-12-07T17:11:24.373886 86808] Running preprocessor
+[2022-12-07T17:11:24.373899 86808] Executing /usr/bin/clang -flto -std=c11 -fvisibility=hidden -fwrapv -pipe -w -fvisibility=hidden -fvisibility-inlines-hidden --target=x86_64-apple-macos10.9 -O3 -D_XOPEN_SOURCE -D__NUITKA_NO_ASSERT__ -D_NUITKA_CONSTANTS_FROM_MACOS_SECTION -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -I/Users/joerg/opt/anaconda3/envs/pyside2_dev/include/python3.10 -I. -I/Users/joerg/opt/anaconda3/envs/pyside2_dev/lib/python3.10/site-packages/nuitka/build/include -I/Users/joerg/opt/anaconda3/envs/pyside2_dev/lib/python3.10/site-packages/nuitka/build/static_src -E static_src/MainProgram.c
+[2022-12-07T17:11:24.374033 86806] Running preprocessor
+[2022-12-07T17:11:24.374073 86806] Executing /usr/bin/clang -flto -std=c11 -fvisibility=hidden -fwrapv -pipe -w -fvisibility=hidden -fvisibility-inlines-hidden --target=x86_64-apple-macos10.9 -O3 -D_XOPEN_SOURCE -D__NUITKA_NO_ASSERT__ -D_NUITKA_CONSTANTS_FROM_MACOS_SECTION -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -I/Users/joerg/opt/anaconda3/envs/pyside2_dev/include/python3.10 -I. -I/Users/joerg/opt/anaconda3/envs/pyside2_dev/lib/python3.10/site-packages/nuitka/build/include -I/Users/joerg/opt/anaconda3/envs/pyside2_dev/lib/python3.10/site-packages/nuitka/build/static_src -E __loader.c
+[2022-12-07T17:11:24.374220 86807] Running preprocessor
+[2022-12-07T17:11:24.374252 86807] Executing /usr/bin/clang -flto -std=c11 -fvisibility=hidden -fwrapv -pipe -w -fvisibility=hidden -fvisibility-inlines-hidden --target=x86_64-apple-macos10.9 -O3 -D_XOPEN_SOURCE -D__NUITKA_NO_ASSERT__ -D_NUITKA_CONSTANTS_FROM_MACOS_SECTION -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -I/Users/joerg/opt/anaconda3/envs/pyside2_dev/include/python3.10 -I. -I/Users/joerg/opt/anaconda3/envs/pyside2_dev/lib/python3.10/site-packages/nuitka/build/include -I/Users/joerg/opt/anaconda3/envs/pyside2_dev/lib/python3.10/site-packages/nuitka/build/static_src -E module.__main__.c
+[2022-12-07T17:11:24.375722 86804] === CCACHE master.971f1183 STARTED =========================================
+[2022-12-07T17:11:24.375722 86804] Config: (default) absolute_paths_in_stderr = false
+[2022-12-07T17:11:24.375722 86804] Config: (default) base_dir = 
+[2022-12-07T17:11:24.375722 86804] Config: (environment) cache_dir = /Users/joerg/Library/Caches/Nuitka/ccache
+[2022-12-07T17:11:24.375722 86804] Config: (default) compiler = 
+[2022-12-07T17:11:24.375722 86804] Config: (default) compiler_check = mtime
+[2022-12-07T17:11:24.375722 86804] Config: (default) compiler_type = auto
+[2022-12-07T17:11:24.375722 86804] Config: (default) compression = true
+[2022-12-07T17:11:24.375722 86804] Config: (default) compression_level = 0
+[2022-12-07T17:11:24.375722 86804] Config: (default) cpp_extension = 
+[2022-12-07T17:11:24.375722 86804] Config: (default) debug = false
+[2022-12-07T17:11:24.375722 86804] Config: (default) debug_dir = 
+[2022-12-07T17:11:24.375722 86804] Config: (default) depend_mode = false
+[2022-12-07T17:11:24.375722 86804] Config: (default) direct_mode = true
+[2022-12-07T17:11:24.375722 86804] Config: (default) disable = false
+[2022-12-07T17:11:24.375722 86804] Config: (default) extra_files_to_hash = 
+[2022-12-07T17:11:24.375722 86804] Config: (default) file_clone = false
+[2022-12-07T17:11:24.375722 86804] Config: (default) hard_link = false
+[2022-12-07T17:11:24.375722 86804] Config: (default) hash_dir = true
+[2022-12-07T17:11:24.375722 86804] Config: (default) ignore_headers_in_manifest = 
+[2022-12-07T17:11:24.375722 86804] Config: (default) ignore_options = 
+[2022-12-07T17:11:24.375722 86804] Config: (default) inode_cache = false
+[2022-12-07T17:11:24.375722 86804] Config: (default) keep_comments_cpp = false
+[2022-12-07T17:11:24.375722 86804] Config: (default) limit_multiple = 0.8
+[2022-12-07T17:11:24.375722 86804] Config: (environment) log_file = /Users/joerg/repos/werdernas/moin_moin.build/ccache-86701.txt
+[2022-12-07T17:11:24.375722 86804] Config: (default) max_files = 0
+[2022-12-07T17:11:24.375722 86804] Config: (default) max_size = 5.0G
+[2022-12-07T17:11:24.375722 86804] Config: (default) path = 
+[2022-12-07T17:11:24.375722 86804] Config: (default) pch_external_checksum = false
+[2022-12-07T17:11:24.375722 86804] Config: (default) prefix_command = 
+[2022-12-07T17:11:24.375722 86804] Config: (default) prefix_command_cpp = 
+[2022-12-07T17:11:24.375722 86804] Config: (default) read_only = false
+[2022-12-07T17:11:24.375722 86804] Config: (default) read_only_direct = false
+[2022-12-07T17:11:24.375722 86804] Config: (default) recache = false
+[2022-12-07T17:11:24.375722 86804] Config: (default) run_second_cpp = true
+[2022-12-07T17:11:24.375722 86804] Config: (environment) sloppiness = include_file_mtime, include_file_ctime
+[2022-12-07T17:11:24.375722 86804] Config: (default) stats = true
+[2022-12-07T17:11:24.375722 86804] Config: (default) temporary_dir = /Users/joerg/Library/Caches/Nuitka/ccache/tmp
+[2022-12-07T17:11:24.375722 86804] Config: (default) umask = 
+[2022-12-07T17:11:24.376026 86804] Command line: /Users/joerg/Library/Caches/Nuitka/downloads/ccache/v4.2.1/ccache /usr/bin/clang -o __constants.o -c -flto -std=c11 -fvisibility=hidden -fwrapv -pipe -w -fvisibility=hidden -fvisibility-inlines-hidden --target=x86_64-apple-macos10.9 -O3 -D_XOPEN_SOURCE -D__NUITKA_NO_ASSERT__ -D_NUITKA_CONSTANTS_FROM_MACOS_SECTION -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -I/Users/joerg/opt/anaconda3/envs/pyside2_dev/include/python3.10 -I. -I/Users/joerg/opt/anaconda3/envs/pyside2_dev/lib/python3.10/site-packages/nuitka/build/include -I/Users/joerg/opt/anaconda3/envs/pyside2_dev/lib/python3.10/site-packages/nuitka/build/static_src __constants.c
+[2022-12-07T17:11:24.376069 86804] Hostname: WerderInsignia.fritz.box
+[2022-12-07T17:11:24.376081 86804] Working directory: /Users/joerg/repos/werdernas/moin_moin.build
+[2022-12-07T17:11:24.376096 86804] Compiler type: clang
+[2022-12-07T17:11:24.376195 86805] === CCACHE master.971f1183 STARTED =========================================
+[2022-12-07T17:11:24.376222 86810] === CCACHE master.971f1183 STARTED =========================================
+[2022-12-07T17:11:24.376195 86805] Config: (default) absolute_paths_in_stderr = false
+[2022-12-07T17:11:24.376195 86805] Config: (default) base_dir = 
+[2022-12-07T17:11:24.376195 86805] Config: (environment) cache_dir = /Users/joerg/Library/Caches/Nuitka/ccache
+[2022-12-07T17:11:24.376195 86805] Config: (default) compiler = 
+[2022-12-07T17:11:24.376195 86805] Config: (default) compiler_check = mtime
+[2022-12-07T17:11:24.376195 86805] Config: (default) compiler_type = auto
+[2022-12-07T17:11:24.376195 86805] Config: (default) compression = true
+[2022-12-07T17:11:24.376195 86805] Config: (default) compression_level = 0
+[2022-12-07T17:11:24.376195 86805] Config: (default) cpp_extension = 
+[2022-12-07T17:11:24.376195 86805] Config: (default) debug = false
+[2022-12-07T17:11:24.376195 86805] Config: (default) debug_dir = 
+[2022-12-07T17:11:24.376195 86805] Config: (default) depend_mode = false
+[2022-12-07T17:11:24.376195 86805] Config: (default) direct_mode = true
+[2022-12-07T17:11:24.376195 86805] Config: (default) disable = false
+[2022-12-07T17:11:24.376195 86805] Config: (default) extra_files_to_hash = 
+[2022-12-07T17:11:24.376195 86805] Config: (default) file_clone = false
+[2022-12-07T17:11:24.376195 86805] Config: (default) hard_link = false
+[2022-12-07T17:11:24.376195 86805] Config: (default) hash_dir = true
+[2022-12-07T17:11:24.376195 86805] Config: (default) ignore_headers_in_manifest = 
+[2022-12-07T17:11:24.376195 86805] Config: (default) ignore_options = 
+[2022-12-07T17:11:24.376195 86805] Config: (default) inode_cache = false
+[2022-12-07T17:11:24.376195 86805] Config: (default) keep_comments_cpp = false
+[2022-12-07T17:11:24.376195 86805] Config: (default) limit_multiple = 0.8
+[2022-12-07T17:11:24.376195 86805] Config: (environment) log_file = /Users/joerg/repos/werdernas/moin_moin.build/ccache-86701.txt
+[2022-12-07T17:11:24.376195 86805] Config: (default) max_files = 0
+[2022-12-07T17:11:24.376195 86805] Config: (default) max_size = 5.0G
+[2022-12-07T17:11:24.376195 86805] Config: (default) path = 
+[2022-12-07T17:11:24.376195 86805] Config: (default) pch_external_checksum = false
+[2022-12-07T17:11:24.376195 86805] Config: (default) prefix_command = 
+[2022-12-07T17:11:24.376195 86805] Config: (default) prefix_command_cpp = 
+[2022-12-07T17:11:24.376195 86805] Config: (default) read_only = false
+[2022-12-07T17:11:24.376195 86805] Config: (default) read_only_direct = false
+[2022-12-07T17:11:24.376195 86805] Config: (default) recache = false
+[2022-12-07T17:11:24.376195 86805] Config: (default) run_second_cpp = true
+[2022-12-07T17:11:24.376195 86805] Config: (environment) sloppiness = include_file_mtime, include_file_ctime
+[2022-12-07T17:11:24.376195 86805] Config: (default) stats = true
+[2022-12-07T17:11:24.376195 86805] Config: (default) temporary_dir = /Users/joerg/Library/Caches/Nuitka/ccache/tmp
+[2022-12-07T17:11:24.376195 86805] Config: (default) umask = 
+[2022-12-07T17:11:24.376340 86805] Command line: /Users/joerg/Library/Caches/Nuitka/downloads/ccache/v4.2.1/ccache /usr/bin/clang -o __helpers.o -c -flto -std=c11 -fvisibility=hidden -fwrapv -pipe -w -fvisibility=hidden -fvisibility-inlines-hidden --target=x86_64-apple-macos10.9 -O3 -D_XOPEN_SOURCE -D__NUITKA_NO_ASSERT__ -D_NUITKA_CONSTANTS_FROM_MACOS_SECTION -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -I/Users/joerg/opt/anaconda3/envs/pyside2_dev/include/python3.10 -I. -I/Users/joerg/opt/anaconda3/envs/pyside2_dev/lib/python3.10/site-packages/nuitka/build/include -I/Users/joerg/opt/anaconda3/envs/pyside2_dev/lib/python3.10/site-packages/nuitka/build/static_src __helpers.c
+[2022-12-07T17:11:24.376356 86804] Source file: __constants.c
+[2022-12-07T17:11:24.376361 86805] Hostname: WerderInsignia.fritz.box
+[2022-12-07T17:11:24.376379 86805] Working directory: /Users/joerg/repos/werdernas/moin_moin.build
+[2022-12-07T17:11:24.376379 86804] Object file: __constants.o
+[2022-12-07T17:11:24.376384 86805] Compiler type: clang
+[2022-12-07T17:11:24.376463 86804] Trying direct lookup
+[2022-12-07T17:11:24.376490 86805] Source file: __helpers.c
+[2022-12-07T17:11:24.376222 86810] Config: (default) absolute_paths_in_stderr = false
+[2022-12-07T17:11:24.376222 86810] Config: (default) base_dir = 
+[2022-12-07T17:11:24.376222 86810] Config: (environment) cache_dir = /Users/joerg/Library/Caches/Nuitka/ccache
+[2022-12-07T17:11:24.376222 86810] Config: (default) compiler = 
+[2022-12-07T17:11:24.376222 86810] Config: (default) compiler_check = mtime
+[2022-12-07T17:11:24.376222 86810] Config: (default) compiler_type = auto
+[2022-12-07T17:11:24.376222 86810] Config: (default) compression = true
+[2022-12-07T17:11:24.376222 86810] Config: (default) compression_level = 0
+[2022-12-07T17:11:24.376222 86810] Config: (default) cpp_extension = 
+[2022-12-07T17:11:24.376222 86810] Config: (default) debug = false
+[2022-12-07T17:11:24.376222 86810] Config: (default) debug_dir = 
+[2022-12-07T17:11:24.376222 86810] Config: (default) depend_mode = false
+[2022-12-07T17:11:24.376222 86810] Config: (default) direct_mode = true
+[2022-12-07T17:11:24.376222 86810] Config: (default) disable = false
+[2022-12-07T17:11:24.376222 86810] Config: (default) extra_files_to_hash = 
+[2022-12-07T17:11:24.376222 86810] Config: (default) file_clone = false
+[2022-12-07T17:11:24.376222 86810] Config: (default) hard_link = false
+[2022-12-07T17:11:24.376222 86810] Config: (default) hash_dir = true
+[2022-12-07T17:11:24.376222 86810] Config: (default) ignore_headers_in_manifest = 
+[2022-12-07T17:11:24.376222 86810] Config: (default) ignore_options = 
+[2022-12-07T17:11:24.376222 86810] Config: (default) inode_cache = false
+[2022-12-07T17:11:24.376222 86810] Config: (default) keep_comments_cpp = false
+[2022-12-07T17:11:24.376222 86810] Config: (default) limit_multiple = 0.8
+[2022-12-07T17:11:24.376222 86810] Config: (environment) log_file = /Users/joerg/repos/werdernas/moin_moin.build/ccache-86701.txt
+[2022-12-07T17:11:24.376222 86810] Config: (default) max_files = 0
+[2022-12-07T17:11:24.376222 86810] Config: (default) max_size = 5.0G
+[2022-12-07T17:11:24.376222 86810] Config: (default) path = 
+[2022-12-07T17:11:24.376222 86810] Config: (default) pch_external_checksum = false
+[2022-12-07T17:11:24.376222 86810] Config: (default) prefix_command = 
+[2022-12-07T17:11:24.376222 86810] Config: (default) prefix_command_cpp = 
+[2022-12-07T17:11:24.376222 86810] Config: (default) read_only = false
+[2022-12-07T17:11:24.376222 86810] Config: (default) read_only_direct = false
+[2022-12-07T17:11:24.376222 86810] Config: (default) recache = false
+[2022-12-07T17:11:24.376222 86810] Config: (default) run_second_cpp = true
+[2022-12-07T17:11:24.376222 86810] Config: (environment) sloppiness = include_file_mtime, include_file_ctime
+[2022-12-07T17:11:24.376222 86810] Config: (default) stats = true
+[2022-12-07T17:11:24.376222 86810] Config: (default) temporary_dir = /Users/joerg/Library/Caches/Nuitka/ccache/tmp
+[2022-12-07T17:11:24.376222 86810] Config: (default) umask = 
+[2022-12-07T17:11:24.376492 86810] Command line: /Users/joerg/Library/Caches/Nuitka/downloads/ccache/v4.2.1/ccache /usr/bin/clang -o static_src/CompiledFunctionType.o -c -flto -std=c11 -fvisibility=hidden -fwrapv -pipe -w -fvisibility=hidden -fvisibility-inlines-hidden --target=x86_64-apple-macos10.9 -O3 -D_XOPEN_SOURCE -D__NUITKA_NO_ASSERT__ -D_NUITKA_CONSTANTS_FROM_MACOS_SECTION -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -I/Users/joerg/opt/anaconda3/envs/pyside2_dev/include/python3.10 -I. -I/Users/joerg/opt/anaconda3/envs/pyside2_dev/lib/python3.10/site-packages/nuitka/build/include -I/Users/joerg/opt/anaconda3/envs/pyside2_dev/lib/python3.10/site-packages/nuitka/build/static_src static_src/CompiledFunctionType.c
+[2022-12-07T17:11:24.376499 86805] Object file: __helpers.o
+[2022-12-07T17:11:24.376546 86810] Hostname: WerderInsignia.fritz.box
+[2022-12-07T17:11:24.376565 86810] Working directory: /Users/joerg/repos/werdernas/moin_moin.build
+[2022-12-07T17:11:24.376579 86810] Compiler type: clang
+[2022-12-07T17:11:24.376603 86805] Trying direct lookup
+[2022-12-07T17:11:24.376666 86805] No manifest with name 04c709s0iujsbqq55peu74hsutd0j6vu6 in the cache
+[2022-12-07T17:11:24.376661 86804] No manifest with name 4e83pll3fmfj96smotjvd26ip2a989du4 in the cache
+[2022-12-07T17:11:24.376772 86810] Source file: static_src/CompiledFunctionType.c
+[2022-12-07T17:11:24.376790 86810] Object file: static_src/CompiledFunctionType.o
+[2022-12-07T17:11:24.376860 86810] Trying direct lookup
+[2022-12-07T17:11:24.377415 86805] Running preprocessor
+[2022-12-07T17:11:24.377429 86805] Executing /usr/bin/clang -flto -std=c11 -fvisibility=hidden -fwrapv -pipe -w -fvisibility=hidden -fvisibility-inlines-hidden --target=x86_64-apple-macos10.9 -O3 -D_XOPEN_SOURCE -D__NUITKA_NO_ASSERT__ -D_NUITKA_CONSTANTS_FROM_MACOS_SECTION -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -I/Users/joerg/opt/anaconda3/envs/pyside2_dev/include/python3.10 -I. -I/Users/joerg/opt/anaconda3/envs/pyside2_dev/lib/python3.10/site-packages/nuitka/build/include -I/Users/joerg/opt/anaconda3/envs/pyside2_dev/lib/python3.10/site-packages/nuitka/build/static_src -E __helpers.c
+[2022-12-07T17:11:24.377427 86810] No manifest with name b070eipfv0o57ih2pl86cguv85lqmi72g in the cache
+[2022-12-07T17:11:24.377484 86804] Running preprocessor
+[2022-12-07T17:11:24.377512 86804] Executing /usr/bin/clang -flto -std=c11 -fvisibility=hidden -fwrapv -pipe -w -fvisibility=hidden -fvisibility-inlines-hidden --target=x86_64-apple-macos10.9 -O3 -D_XOPEN_SOURCE -D__NUITKA_NO_ASSERT__ -D_NUITKA_CONSTANTS_FROM_MACOS_SECTION -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -I/Users/joerg/opt/anaconda3/envs/pyside2_dev/include/python3.10 -I. -I/Users/joerg/opt/anaconda3/envs/pyside2_dev/lib/python3.10/site-packages/nuitka/build/include -I/Users/joerg/opt/anaconda3/envs/pyside2_dev/lib/python3.10/site-packages/nuitka/build/static_src -E __constants.c
+[2022-12-07T17:11:24.379848 86810] Running preprocessor
+[2022-12-07T17:11:24.379891 86810] Executing /usr/bin/clang -flto -std=c11 -fvisibility=hidden -fwrapv -pipe -w -fvisibility=hidden -fvisibility-inlines-hidden --target=x86_64-apple-macos10.9 -O3 -D_XOPEN_SOURCE -D__NUITKA_NO_ASSERT__ -D_NUITKA_CONSTANTS_FROM_MACOS_SECTION -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -I/Users/joerg/opt/anaconda3/envs/pyside2_dev/include/python3.10 -I. -I/Users/joerg/opt/anaconda3/envs/pyside2_dev/lib/python3.10/site-packages/nuitka/build/include -I/Users/joerg/opt/anaconda3/envs/pyside2_dev/lib/python3.10/site-packages/nuitka/build/static_src -E static_src/CompiledFunctionType.c
+[2022-12-07T17:11:24.387696 86811] === CCACHE master.971f1183 STARTED =========================================
+[2022-12-07T17:11:24.387696 86811] Config: (default) absolute_paths_in_stderr = false
+[2022-12-07T17:11:24.387696 86811] Config: (default) base_dir = 
+[2022-12-07T17:11:24.387696 86811] Config: (environment) cache_dir = /Users/joerg/Library/Caches/Nuitka/ccache
+[2022-12-07T17:11:24.387696 86811] Config: (default) compiler = 
+[2022-12-07T17:11:24.387696 86811] Config: (default) compiler_check = mtime
+[2022-12-07T17:11:24.387696 86811] Config: (default) compiler_type = auto
+[2022-12-07T17:11:24.387696 86811] Config: (default) compression = true
+[2022-12-07T17:11:24.387696 86811] Config: (default) compression_level = 0
+[2022-12-07T17:11:24.387696 86811] Config: (default) cpp_extension = 
+[2022-12-07T17:11:24.387696 86811] Config: (default) debug = false
+[2022-12-07T17:11:24.387696 86811] Config: (default) debug_dir = 
+[2022-12-07T17:11:24.387696 86811] Config: (default) depend_mode = false
+[2022-12-07T17:11:24.387696 86811] Config: (default) direct_mode = true
+[2022-12-07T17:11:24.387696 86811] Config: (default) disable = false
+[2022-12-07T17:11:24.387696 86811] Config: (default) extra_files_to_hash = 
+[2022-12-07T17:11:24.387696 86811] Config: (default) file_clone = false
+[2022-12-07T17:11:24.387696 86811] Config: (default) hard_link = false
+[2022-12-07T17:11:24.387696 86811] Config: (default) hash_dir = true
+[2022-12-07T17:11:24.387696 86811] Config: (default) ignore_headers_in_manifest = 
+[2022-12-07T17:11:24.387696 86811] Config: (default) ignore_options = 
+[2022-12-07T17:11:24.387696 86811] Config: (default) inode_cache = false
+[2022-12-07T17:11:24.387696 86811] Config: (default) keep_comments_cpp = false
+[2022-12-07T17:11:24.387696 86811] Config: (default) limit_multiple = 0.8
+[2022-12-07T17:11:24.387696 86811] Config: (environment) log_file = /Users/joerg/repos/werdernas/moin_moin.build/ccache-86701.txt
+[2022-12-07T17:11:24.387696 86811] Config: (default) max_files = 0
+[2022-12-07T17:11:24.387696 86811] Config: (default) max_size = 5.0G
+[2022-12-07T17:11:24.387696 86811] Config: (default) path = 
+[2022-12-07T17:11:24.387696 86811] Config: (default) pch_external_checksum = false
+[2022-12-07T17:11:24.387696 86811] Config: (default) prefix_command = 
+[2022-12-07T17:11:24.387696 86811] Config: (default) prefix_command_cpp = 
+[2022-12-07T17:11:24.387696 86811] Config: (default) read_only = false
+[2022-12-07T17:11:24.387696 86811] Config: (default) read_only_direct = false
+[2022-12-07T17:11:24.387696 86811] Config: (default) recache = false
+[2022-12-07T17:11:24.387696 86811] Config: (default) run_second_cpp = true
+[2022-12-07T17:11:24.387696 86811] Config: (environment) sloppiness = include_file_mtime, include_file_ctime
+[2022-12-07T17:11:24.387696 86811] Config: (default) stats = true
+[2022-12-07T17:11:24.387696 86811] Config: (default) temporary_dir = /Users/joerg/Library/Caches/Nuitka/ccache/tmp
+[2022-12-07T17:11:24.387696 86811] Config: (default) umask = 
+[2022-12-07T17:11:24.387800 86811] Command line: /Users/joerg/Library/Caches/Nuitka/downloads/ccache/v4.2.1/ccache /usr/bin/clang -o static_src/CompiledGeneratorType.o -c -flto -std=c11 -fvisibility=hidden -fwrapv -pipe -w -fvisibility=hidden -fvisibility-inlines-hidden --target=x86_64-apple-macos10.9 -O3 -D_XOPEN_SOURCE -D__NUITKA_NO_ASSERT__ -D_NUITKA_CONSTANTS_FROM_MACOS_SECTION -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -I/Users/joerg/opt/anaconda3/envs/pyside2_dev/include/python3.10 -I. -I/Users/joerg/opt/anaconda3/envs/pyside2_dev/lib/python3.10/site-packages/nuitka/build/include -I/Users/joerg/opt/anaconda3/envs/pyside2_dev/lib/python3.10/site-packages/nuitka/build/static_src static_src/CompiledGeneratorType.c
+[2022-12-07T17:11:24.387815 86811] Hostname: WerderInsignia.fritz.box
+[2022-12-07T17:11:24.387819 86811] Working directory: /Users/joerg/repos/werdernas/moin_moin.build
+[2022-12-07T17:11:24.387824 86811] Compiler type: clang
+[2022-12-07T17:11:24.387918 86811] Source file: static_src/CompiledGeneratorType.c
+[2022-12-07T17:11:24.387924 86811] Object file: static_src/CompiledGeneratorType.o
+[2022-12-07T17:11:24.387951 86811] Trying direct lookup
+[2022-12-07T17:11:24.388135 86811] No manifest with name 36713i3ua3i2d3kcfci7i0n1hoitla68e in the cache
+[2022-12-07T17:11:24.388437 86811] Running preprocessor
+[2022-12-07T17:11:24.388447 86811] Executing /usr/bin/clang -flto -std=c11 -fvisibility=hidden -fwrapv -pipe -w -fvisibility=hidden -fvisibility-inlines-hidden --target=x86_64-apple-macos10.9 -O3 -D_XOPEN_SOURCE -D__NUITKA_NO_ASSERT__ -D_NUITKA_CONSTANTS_FROM_MACOS_SECTION -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -I/Users/joerg/opt/anaconda3/envs/pyside2_dev/include/python3.10 -I. -I/Users/joerg/opt/anaconda3/envs/pyside2_dev/lib/python3.10/site-packages/nuitka/build/include -I/Users/joerg/opt/anaconda3/envs/pyside2_dev/lib/python3.10/site-packages/nuitka/build/static_src -E static_src/CompiledGeneratorType.c
+[2022-12-07T17:11:24.544903 86806] Got result name from preprocessor
+[2022-12-07T17:11:24.544966 86806] No result with name 9c6bsbbbglqdnl1pddf4ock2a696dktn6 in the cache
+[2022-12-07T17:11:24.544979 86806] Running real compiler
+[2022-12-07T17:11:24.545164 86806] Executing /usr/bin/clang -flto -std=c11 -fvisibility=hidden -fwrapv -pipe -w -fvisibility=hidden -fvisibility-inlines-hidden --target=x86_64-apple-macos10.9 -O3 -D_XOPEN_SOURCE -D__NUITKA_NO_ASSERT__ -D_NUITKA_CONSTANTS_FROM_MACOS_SECTION -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -I/Users/joerg/opt/anaconda3/envs/pyside2_dev/include/python3.10 -I. -I/Users/joerg/opt/anaconda3/envs/pyside2_dev/lib/python3.10/site-packages/nuitka/build/include -I/Users/joerg/opt/anaconda3/envs/pyside2_dev/lib/python3.10/site-packages/nuitka/build/static_src -c -fcolor-diagnostics -o __loader.o __loader.c
+[2022-12-07T17:11:24.554638 86809] Got result name from preprocessor
+[2022-12-07T17:11:24.554703 86809] No result with name d0c83gva0654bpdnv9fta38qoo60d8k08 in the cache
+[2022-12-07T17:11:24.554715 86809] Running real compiler
+[2022-12-07T17:11:24.554877 86809] Executing /usr/bin/clang -flto -std=c11 -fvisibility=hidden -fwrapv -pipe -w -fvisibility=hidden -fvisibility-inlines-hidden --target=x86_64-apple-macos10.9 -O3 -D_XOPEN_SOURCE -D__NUITKA_NO_ASSERT__ -D_NUITKA_CONSTANTS_FROM_MACOS_SECTION -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -I/Users/joerg/opt/anaconda3/envs/pyside2_dev/include/python3.10 -I. -I/Users/joerg/opt/anaconda3/envs/pyside2_dev/lib/python3.10/site-packages/nuitka/build/include -I/Users/joerg/opt/anaconda3/envs/pyside2_dev/lib/python3.10/site-packages/nuitka/build/static_src -c -fcolor-diagnostics -o static_src/CompiledCellType.o static_src/CompiledCellType.c
+[2022-12-07T17:11:24.561207 86808] Got result name from preprocessor
+[2022-12-07T17:11:24.561330 86808] No result with name 0038muqbhhvv8oiiqeamfdeqvgsu8aeoa in the cache
+[2022-12-07T17:11:24.561373 86808] Running real compiler
+[2022-12-07T17:11:24.561818 86808] Executing /usr/bin/clang -flto -std=c11 -fvisibility=hidden -fwrapv -pipe -w -fvisibility=hidden -fvisibility-inlines-hidden --target=x86_64-apple-macos10.9 -O3 -D_XOPEN_SOURCE -D__NUITKA_NO_ASSERT__ -D_NUITKA_CONSTANTS_FROM_MACOS_SECTION -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -I/Users/joerg/opt/anaconda3/envs/pyside2_dev/include/python3.10 -I. -I/Users/joerg/opt/anaconda3/envs/pyside2_dev/lib/python3.10/site-packages/nuitka/build/include -I/Users/joerg/opt/anaconda3/envs/pyside2_dev/lib/python3.10/site-packages/nuitka/build/static_src -c -fcolor-diagnostics -o static_src/MainProgram.o static_src/MainProgram.c
+[2022-12-07T17:11:24.562334 86804] Got result name from preprocessor
+[2022-12-07T17:11:24.562394 86804] No result with name 7b04vu7k3rh0bsop7clpbgie7e6f518nq in the cache
+[2022-12-07T17:11:24.562407 86804] Running real compiler
+[2022-12-07T17:11:24.562573 86804] Executing /usr/bin/clang -flto -std=c11 -fvisibility=hidden -fwrapv -pipe -w -fvisibility=hidden -fvisibility-inlines-hidden --target=x86_64-apple-macos10.9 -O3 -D_XOPEN_SOURCE -D__NUITKA_NO_ASSERT__ -D_NUITKA_CONSTANTS_FROM_MACOS_SECTION -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -I/Users/joerg/opt/anaconda3/envs/pyside2_dev/include/python3.10 -I. -I/Users/joerg/opt/anaconda3/envs/pyside2_dev/lib/python3.10/site-packages/nuitka/build/include -I/Users/joerg/opt/anaconda3/envs/pyside2_dev/lib/python3.10/site-packages/nuitka/build/static_src -c -fcolor-diagnostics -o __constants.o __constants.c
+[2022-12-07T17:11:24.568285 86805] Got result name from preprocessor
+[2022-12-07T17:11:24.568412 86805] No result with name 4b558lnkd26lhptiv24h3giqer07moc1k in the cache
+[2022-12-07T17:11:24.568437 86805] Running real compiler
+[2022-12-07T17:11:24.568873 86805] Executing /usr/bin/clang -flto -std=c11 -fvisibility=hidden -fwrapv -pipe -w -fvisibility=hidden -fvisibility-inlines-hidden --target=x86_64-apple-macos10.9 -O3 -D_XOPEN_SOURCE -D__NUITKA_NO_ASSERT__ -D_NUITKA_CONSTANTS_FROM_MACOS_SECTION -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -I/Users/joerg/opt/anaconda3/envs/pyside2_dev/include/python3.10 -I. -I/Users/joerg/opt/anaconda3/envs/pyside2_dev/lib/python3.10/site-packages/nuitka/build/include -I/Users/joerg/opt/anaconda3/envs/pyside2_dev/lib/python3.10/site-packages/nuitka/build/static_src -c -fcolor-diagnostics -o __helpers.o __helpers.c
+[2022-12-07T17:11:24.571664 86807] Got result name from preprocessor
+[2022-12-07T17:11:24.571733 86807] No result with name a0680a4c0cbi738dtu75ku8234b9rhi20 in the cache
+[2022-12-07T17:11:24.571747 86807] Running real compiler
+[2022-12-07T17:11:24.571915 86807] Executing /usr/bin/clang -flto -std=c11 -fvisibility=hidden -fwrapv -pipe -w -fvisibility=hidden -fvisibility-inlines-hidden --target=x86_64-apple-macos10.9 -O3 -D_XOPEN_SOURCE -D__NUITKA_NO_ASSERT__ -D_NUITKA_CONSTANTS_FROM_MACOS_SECTION -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -I/Users/joerg/opt/anaconda3/envs/pyside2_dev/include/python3.10 -I. -I/Users/joerg/opt/anaconda3/envs/pyside2_dev/lib/python3.10/site-packages/nuitka/build/include -I/Users/joerg/opt/anaconda3/envs/pyside2_dev/lib/python3.10/site-packages/nuitka/build/static_src -c -fcolor-diagnostics -o module.__main__.o module.__main__.c
+[2022-12-07T17:11:24.573636 86811] Got result name from preprocessor
+[2022-12-07T17:11:24.573697 86811] No result with name d931tu1nad4bbec5m9sasvaapl5203r9s in the cache
+[2022-12-07T17:11:24.573709 86811] Running real compiler
+[2022-12-07T17:11:24.574028 86811] Executing /usr/bin/clang -flto -std=c11 -fvisibility=hidden -fwrapv -pipe -w -fvisibility=hidden -fvisibility-inlines-hidden --target=x86_64-apple-macos10.9 -O3 -D_XOPEN_SOURCE -D__NUITKA_NO_ASSERT__ -D_NUITKA_CONSTANTS_FROM_MACOS_SECTION -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -I/Users/joerg/opt/anaconda3/envs/pyside2_dev/include/python3.10 -I. -I/Users/joerg/opt/anaconda3/envs/pyside2_dev/lib/python3.10/site-packages/nuitka/build/include -I/Users/joerg/opt/anaconda3/envs/pyside2_dev/lib/python3.10/site-packages/nuitka/build/static_src -c -fcolor-diagnostics -o static_src/CompiledGeneratorType.o static_src/CompiledGeneratorType.c
+[2022-12-07T17:11:24.717988 86810] Got result name from preprocessor
+[2022-12-07T17:11:24.718112 86810] No result with name 4cad6ra2kp5i1i60flao3pon08bt6dcaq in the cache
+[2022-12-07T17:11:24.718139 86810] Running real compiler
+[2022-12-07T17:11:24.718547 86810] Executing /usr/bin/clang -flto -std=c11 -fvisibility=hidden -fwrapv -pipe -w -fvisibility=hidden -fvisibility-inlines-hidden --target=x86_64-apple-macos10.9 -O3 -D_XOPEN_SOURCE -D__NUITKA_NO_ASSERT__ -D_NUITKA_CONSTANTS_FROM_MACOS_SECTION -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -I/Users/joerg/opt/anaconda3/envs/pyside2_dev/include/python3.10 -I. -I/Users/joerg/opt/anaconda3/envs/pyside2_dev/lib/python3.10/site-packages/nuitka/build/include -I/Users/joerg/opt/anaconda3/envs/pyside2_dev/lib/python3.10/site-packages/nuitka/build/static_src -c -fcolor-diagnostics -o static_src/CompiledFunctionType.o static_src/CompiledFunctionType.c
+[2022-12-07T17:11:24.720224 86806] Using default compression level 1
+[2022-12-07T17:11:24.720334 86806] Storing result __loader.o
+[2022-12-07T17:11:24.720354 86806] Storing embedded file #0 .o (4832 bytes) from __loader.o
+[2022-12-07T17:11:24.720586 86806] Stored in cache: /Users/joerg/Library/Caches/Nuitka/ccache/9/c/6bsbbbglqdnl1pddf4ock2a696dktn6R
+[2022-12-07T17:11:24.720715 86806] Adding result name to /Users/joerg/Library/Caches/Nuitka/ccache/c/9/cf2kclipr10uoslc11fa0ql88dr2stcM
+[2022-12-07T17:11:24.723293 86806] Using default compression level 1
+[2022-12-07T17:11:24.723883 86806] Result: cache miss
+[2022-12-07T17:11:24.723977 86806] Acquired lock /Users/joerg/Library/Caches/Nuitka/ccache/c/stats.lock
+[2022-12-07T17:11:24.724497 86806] Releasing lock /Users/joerg/Library/Caches/Nuitka/ccache/c/stats.lock
+[2022-12-07T17:11:24.724533 86806] Unlink /Users/joerg/Library/Caches/Nuitka/ccache/c/stats.lock
+[2022-12-07T17:11:24.724851 86806] Acquired lock /Users/joerg/Library/Caches/Nuitka/ccache/9/stats.lock
+[2022-12-07T17:11:24.725008 86806] Releasing lock /Users/joerg/Library/Caches/Nuitka/ccache/9/stats.lock
+[2022-12-07T17:11:24.725041 86806] Unlink /Users/joerg/Library/Caches/Nuitka/ccache/9/stats.lock
+[2022-12-07T17:11:24.725356 86806] Unlink /Users/joerg/Library/Caches/Nuitka/ccache/tmp/tmp.stderr.gLreYI
+[2022-12-07T17:11:24.725391 86806] Unlink /Users/joerg/Library/Caches/Nuitka/ccache/tmp/tmp.stdout.lMnBo0
+[2022-12-07T17:11:24.725424 86806] Unlink /Users/joerg/Library/Caches/Nuitka/ccache/tmp/tmp.cpp_stderr.565J1k
+[2022-12-07T17:11:24.725471 86806] Unlink /Users/joerg/Library/Caches/Nuitka/ccache/tmp/tmp.cpp_stdout.dR7cJZ.i
+[2022-12-07T17:11:24.725549 86806] Unlink /Users/joerg/Library/Caches/Nuitka/ccache/tmp/tmp.cpp_stdout.dR7cJZ
+[2022-12-07T17:11:24.764168 86804] Using default compression level 1
+[2022-12-07T17:11:24.764376 86804] Storing result __constants.o
+[2022-12-07T17:11:24.764417 86804] Storing embedded file #0 .o (8176 bytes) from __constants.o
+[2022-12-07T17:11:24.765338 86804] Stored in cache: /Users/joerg/Library/Caches/Nuitka/ccache/7/b/04vu7k3rh0bsop7clpbgie7e6f518nqR
+[2022-12-07T17:11:24.765552 86804] Adding result name to /Users/joerg/Library/Caches/Nuitka/ccache/4/e/83pll3fmfj96smotjvd26ip2a989du4M
+[2022-12-07T17:11:24.765807 86847] === CCACHE master.971f1183 STARTED =========================================
+[2022-12-07T17:11:24.765807 86847] Config: (default) absolute_paths_in_stderr = false
+[2022-12-07T17:11:24.765807 86847] Config: (default) base_dir = 
+[2022-12-07T17:11:24.765807 86847] Config: (environment) cache_dir = /Users/joerg/Library/Caches/Nuitka/ccache
+[2022-12-07T17:11:24.765807 86847] Config: (default) compiler = 
+[2022-12-07T17:11:24.765807 86847] Config: (default) compiler_check = mtime
+[2022-12-07T17:11:24.765807 86847] Config: (default) compiler_type = auto
+[2022-12-07T17:11:24.765807 86847] Config: (default) compression = true
+[2022-12-07T17:11:24.765807 86847] Config: (default) compression_level = 0
+[2022-12-07T17:11:24.765807 86847] Config: (default) cpp_extension = 
+[2022-12-07T17:11:24.765807 86847] Config: (default) debug = false
+[2022-12-07T17:11:24.765807 86847] Config: (default) debug_dir = 
+[2022-12-07T17:11:24.765807 86847] Config: (default) depend_mode = false
+[2022-12-07T17:11:24.765807 86847] Config: (default) direct_mode = true
+[2022-12-07T17:11:24.765807 86847] Config: (default) disable = false
+[2022-12-07T17:11:24.765807 86847] Config: (default) extra_files_to_hash = 
+[2022-12-07T17:11:24.765807 86847] Config: (default) file_clone = false
+[2022-12-07T17:11:24.765807 86847] Config: (default) hard_link = false
+[2022-12-07T17:11:24.765807 86847] Config: (default) hash_dir = true
+[2022-12-07T17:11:24.765807 86847] Config: (default) ignore_headers_in_manifest = 
+[2022-12-07T17:11:24.765807 86847] Config: (default) ignore_options = 
+[2022-12-07T17:11:24.765807 86847] Config: (default) inode_cache = false
+[2022-12-07T17:11:24.765807 86847] Config: (default) keep_comments_cpp = false
+[2022-12-07T17:11:24.765807 86847] Config: (default) limit_multiple = 0.8
+[2022-12-07T17:11:24.765807 86847] Config: (environment) log_file = /Users/joerg/repos/werdernas/moin_moin.build/ccache-86701.txt
+[2022-12-07T17:11:24.765807 86847] Config: (default) max_files = 0
+[2022-12-07T17:11:24.765807 86847] Config: (default) max_size = 5.0G
+[2022-12-07T17:11:24.765807 86847] Config: (default) path = 
+[2022-12-07T17:11:24.765807 86847] Config: (default) pch_external_checksum = false
+[2022-12-07T17:11:24.765807 86847] Config: (default) prefix_command = 
+[2022-12-07T17:11:24.765807 86847] Config: (default) prefix_command_cpp = 
+[2022-12-07T17:11:24.765807 86847] Config: (default) read_only = false
+[2022-12-07T17:11:24.765807 86847] Config: (default) read_only_direct = false
+[2022-12-07T17:11:24.765807 86847] Config: (default) recache = false
+[2022-12-07T17:11:24.765807 86847] Config: (default) run_second_cpp = true
+[2022-12-07T17:11:24.765807 86847] Config: (environment) sloppiness = include_file_mtime, include_file_ctime
+[2022-12-07T17:11:24.765807 86847] Config: (default) stats = true
+[2022-12-07T17:11:24.765807 86847] Config: (default) temporary_dir = /Users/joerg/Library/Caches/Nuitka/ccache/tmp
+[2022-12-07T17:11:24.765807 86847] Config: (default) umask = 
+[2022-12-07T17:11:24.765935 86847] Command line: /Users/joerg/Library/Caches/Nuitka/downloads/ccache/v4.2.1/ccache /usr/bin/clang -o static_src/InspectPatcher.o -c -flto -std=c11 -fvisibility=hidden -fwrapv -pipe -w -fvisibility=hidden -fvisibility-inlines-hidden --target=x86_64-apple-macos10.9 -O3 -D_XOPEN_SOURCE -D__NUITKA_NO_ASSERT__ -D_NUITKA_CONSTANTS_FROM_MACOS_SECTION -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -I/Users/joerg/opt/anaconda3/envs/pyside2_dev/include/python3.10 -I. -I/Users/joerg/opt/anaconda3/envs/pyside2_dev/lib/python3.10/site-packages/nuitka/build/include -I/Users/joerg/opt/anaconda3/envs/pyside2_dev/lib/python3.10/site-packages/nuitka/build/static_src static_src/InspectPatcher.c
+[2022-12-07T17:11:24.765960 86847] Hostname: WerderInsignia.fritz.box
+[2022-12-07T17:11:24.765967 86847] Working directory: /Users/joerg/repos/werdernas/moin_moin.build
+[2022-12-07T17:11:24.765972 86847] Compiler type: clang
+[2022-12-07T17:11:24.766077 86847] Source file: static_src/InspectPatcher.c
+[2022-12-07T17:11:24.766084 86847] Object file: static_src/InspectPatcher.o
+[2022-12-07T17:11:24.766124 86847] Trying direct lookup
+[2022-12-07T17:11:24.766239 86847] No manifest with name 7f0cddodcm067bvok5tha9i8jtbbtu7ts in the cache
+[2022-12-07T17:11:24.766557 86847] Running preprocessor
+[2022-12-07T17:11:24.766569 86847] Executing /usr/bin/clang -flto -std=c11 -fvisibility=hidden -fwrapv -pipe -w -fvisibility=hidden -fvisibility-inlines-hidden --target=x86_64-apple-macos10.9 -O3 -D_XOPEN_SOURCE -D__NUITKA_NO_ASSERT__ -D_NUITKA_CONSTANTS_FROM_MACOS_SECTION -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -I/Users/joerg/opt/anaconda3/envs/pyside2_dev/include/python3.10 -I. -I/Users/joerg/opt/anaconda3/envs/pyside2_dev/lib/python3.10/site-packages/nuitka/build/include -I/Users/joerg/opt/anaconda3/envs/pyside2_dev/lib/python3.10/site-packages/nuitka/build/static_src -E static_src/InspectPatcher.c
+[2022-12-07T17:11:24.771265 86804] Using default compression level 1
+[2022-12-07T17:11:24.772027 86804] Result: cache miss
+[2022-12-07T17:11:24.772108 86804] Acquired lock /Users/joerg/Library/Caches/Nuitka/ccache/4/stats.lock
+[2022-12-07T17:11:24.772591 86804] Releasing lock /Users/joerg/Library/Caches/Nuitka/ccache/4/stats.lock
+[2022-12-07T17:11:24.772629 86804] Unlink /Users/joerg/Library/Caches/Nuitka/ccache/4/stats.lock
+[2022-12-07T17:11:24.772932 86804] Acquired lock /Users/joerg/Library/Caches/Nuitka/ccache/7/stats.lock
+[2022-12-07T17:11:24.773088 86804] Releasing lock /Users/joerg/Library/Caches/Nuitka/ccache/7/stats.lock
+[2022-12-07T17:11:24.773119 86804] Unlink /Users/joerg/Library/Caches/Nuitka/ccache/7/stats.lock
+[2022-12-07T17:11:24.773911 86804] Unlink /Users/joerg/Library/Caches/Nuitka/ccache/tmp/tmp.stderr.c8lIMf
+[2022-12-07T17:11:24.773944 86804] Unlink /Users/joerg/Library/Caches/Nuitka/ccache/tmp/tmp.stdout.wlEBnb
+[2022-12-07T17:11:24.773968 86804] Unlink /Users/joerg/Library/Caches/Nuitka/ccache/tmp/tmp.cpp_stderr.5auFdE
+[2022-12-07T17:11:24.774007 86804] Unlink /Users/joerg/Library/Caches/Nuitka/ccache/tmp/tmp.cpp_stdout.W40Xou.i
+[2022-12-07T17:11:24.774126 86804] Unlink /Users/joerg/Library/Caches/Nuitka/ccache/tmp/tmp.cpp_stdout.W40Xou
+[2022-12-07T17:11:24.780651 86805] Using default compression level 1
+[2022-12-07T17:11:24.781025 86805] Storing result __helpers.o
+[2022-12-07T17:11:24.781077 86805] Storing embedded file #0 .o (1584 bytes) from __helpers.o
+[2022-12-07T17:11:24.781411 86805] Stored in cache: /Users/joerg/Library/Caches/Nuitka/ccache/4/b/558lnkd26lhptiv24h3giqer07moc1kR
+[2022-12-07T17:11:24.781565 86805] Adding result name to /Users/joerg/Library/Caches/Nuitka/ccache/0/4/c709s0iujsbqq55peu74hsutd0j6vu6M
+[2022-12-07T17:11:24.784445 86805] Using default compression level 1
+[2022-12-07T17:11:24.785178 86805] Result: cache miss
+[2022-12-07T17:11:24.785294 86805] Acquired lock /Users/joerg/Library/Caches/Nuitka/ccache/0/stats.lock
+[2022-12-07T17:11:24.785839 86805] Releasing lock /Users/joerg/Library/Caches/Nuitka/ccache/0/stats.lock
+[2022-12-07T17:11:24.785879 86805] Unlink /Users/joerg/Library/Caches/Nuitka/ccache/0/stats.lock
+[2022-12-07T17:11:24.786193 86805] Acquired lock /Users/joerg/Library/Caches/Nuitka/ccache/4/stats.lock
+[2022-12-07T17:11:24.786394 86805] Releasing lock /Users/joerg/Library/Caches/Nuitka/ccache/4/stats.lock
+[2022-12-07T17:11:24.786419 86805] Unlink /Users/joerg/Library/Caches/Nuitka/ccache/4/stats.lock
+[2022-12-07T17:11:24.786583 86805] Unlink /Users/joerg/Library/Caches/Nuitka/ccache/tmp/tmp.stderr.7uHzBI
+[2022-12-07T17:11:24.786605 86805] Unlink /Users/joerg/Library/Caches/Nuitka/ccache/tmp/tmp.stdout.yPWats
+[2022-12-07T17:11:24.786627 86805] Unlink /Users/joerg/Library/Caches/Nuitka/ccache/tmp/tmp.cpp_stderr.UxfNb2
+[2022-12-07T17:11:24.786667 86805] Unlink /Users/joerg/Library/Caches/Nuitka/ccache/tmp/tmp.cpp_stdout.Xpi8yG.i
+[2022-12-07T17:11:24.786727 86805] Unlink /Users/joerg/Library/Caches/Nuitka/ccache/tmp/tmp.cpp_stdout.Xpi8yG
+[2022-12-07T17:11:24.797490 86808] Using default compression level 1
+[2022-12-07T17:11:24.797585 86808] Storing result static_src/MainProgram.o
+[2022-12-07T17:11:24.797600 86808] Storing embedded file #0 .o (17104 bytes) from static_src/MainProgram.o
+[2022-12-07T17:11:24.798030 86808] Stored in cache: /Users/joerg/Library/Caches/Nuitka/ccache/0/0/38muqbhhvv8oiiqeamfdeqvgsu8aeoaR
+[2022-12-07T17:11:24.798258 86808] Adding result name to /Users/joerg/Library/Caches/Nuitka/ccache/2/a/126pgb8k9f3qqife06rlbf6muslb2t2M
+[2022-12-07T17:11:24.799422 86809] Using default compression level 1
+[2022-12-07T17:11:24.799501 86809] Storing result static_src/CompiledCellType.o
+[2022-12-07T17:11:24.799518 86809] Storing embedded file #0 .o (12496 bytes) from static_src/CompiledCellType.o
+[2022-12-07T17:11:24.800033 86809] Stored in cache: /Users/joerg/Library/Caches/Nuitka/ccache/d/0/c83gva0654bpdnv9fta38qoo60d8k08R
+[2022-12-07T17:11:24.800194 86809] Adding result name to /Users/joerg/Library/Caches/Nuitka/ccache/4/0/e38qrds4bspqqjhgklajgl6ousku4d0M
+[2022-12-07T17:11:24.803944 86808] Using default compression level 1
+[2022-12-07T17:11:24.804615 86808] Result: cache miss
+[2022-12-07T17:11:24.804693 86808] Acquired lock /Users/joerg/Library/Caches/Nuitka/ccache/2/stats.lock
+[2022-12-07T17:11:24.805377 86808] Releasing lock /Users/joerg/Library/Caches/Nuitka/ccache/2/stats.lock
+[2022-12-07T17:11:24.805374 86809] Using default compression level 1
+[2022-12-07T17:11:24.805413 86808] Unlink /Users/joerg/Library/Caches/Nuitka/ccache/2/stats.lock
+[2022-12-07T17:11:24.805724 86808] Acquired lock /Users/joerg/Library/Caches/Nuitka/ccache/0/stats.lock
+[2022-12-07T17:11:24.805938 86808] Releasing lock /Users/joerg/Library/Caches/Nuitka/ccache/0/stats.lock
+[2022-12-07T17:11:24.805969 86808] Unlink /Users/joerg/Library/Caches/Nuitka/ccache/0/stats.lock
+[2022-12-07T17:11:24.806134 86808] Unlink /Users/joerg/Library/Caches/Nuitka/ccache/tmp/tmp.stderr.xM9sYu
+[2022-12-07T17:11:24.806173 86808] Unlink /Users/joerg/Library/Caches/Nuitka/ccache/tmp/tmp.stdout.xEUnWN
+[2022-12-07T17:11:24.806199 86808] Unlink /Users/joerg/Library/Caches/Nuitka/ccache/tmp/tmp.cpp_stderr.JWJsAM
+[2022-12-07T17:11:24.806244 86808] Unlink /Users/joerg/Library/Caches/Nuitka/ccache/tmp/tmp.cpp_stdout.CbE4zL.i
+[2022-12-07T17:11:24.806298 86808] Unlink /Users/joerg/Library/Caches/Nuitka/ccache/tmp/tmp.cpp_stdout.CbE4zL
+[2022-12-07T17:11:24.806865 86809] Result: cache miss
+[2022-12-07T17:11:24.807081 86809] Acquired lock /Users/joerg/Library/Caches/Nuitka/ccache/4/stats.lock
+[2022-12-07T17:11:24.807703 86809] Releasing lock /Users/joerg/Library/Caches/Nuitka/ccache/4/stats.lock
+[2022-12-07T17:11:24.807806 86809] Unlink /Users/joerg/Library/Caches/Nuitka/ccache/4/stats.lock
+[2022-12-07T17:11:24.807930 86809] Acquired lock /Users/joerg/Library/Caches/Nuitka/ccache/d/stats.lock
+[2022-12-07T17:11:24.808689 86809] Releasing lock /Users/joerg/Library/Caches/Nuitka/ccache/d/stats.lock
+[2022-12-07T17:11:24.808728 86809] Unlink /Users/joerg/Library/Caches/Nuitka/ccache/d/stats.lock
+[2022-12-07T17:11:24.809145 86809] Unlink /Users/joerg/Library/Caches/Nuitka/ccache/tmp/tmp.stderr.7ikIpb
+[2022-12-07T17:11:24.809263 86809] Unlink /Users/joerg/Library/Caches/Nuitka/ccache/tmp/tmp.stdout.l27CRg
+[2022-12-07T17:11:24.809343 86809] Unlink /Users/joerg/Library/Caches/Nuitka/ccache/tmp/tmp.cpp_stderr.t8SCyH
+[2022-12-07T17:11:24.809455 86809] Unlink /Users/joerg/Library/Caches/Nuitka/ccache/tmp/tmp.cpp_stdout.dnXYSg.i
+[2022-12-07T17:11:24.809621 86809] Unlink /Users/joerg/Library/Caches/Nuitka/ccache/tmp/tmp.cpp_stdout.dnXYSg
+[2022-12-07T17:11:24.837756 86807] Using default compression level 1
+[2022-12-07T17:11:24.837840 86807] Storing result module.__main__.o
+[2022-12-07T17:11:24.837854 86807] Storing embedded file #0 .o (19360 bytes) from module.__main__.o
+[2022-12-07T17:11:24.838189 86807] Stored in cache: /Users/joerg/Library/Caches/Nuitka/ccache/a/0/680a4c0cbi738dtu75ku8234b9rhi20R
+[2022-12-07T17:11:24.838322 86807] Adding result name to /Users/joerg/Library/Caches/Nuitka/ccache/b/b/eb4qas95a4a0u0m7j7pi1hpq3l5scqqM
+[2022-12-07T17:11:24.841175 86807] Using default compression level 1
+[2022-12-07T17:11:24.841778 86807] Result: cache miss
+[2022-12-07T17:11:24.841846 86807] Acquired lock /Users/joerg/Library/Caches/Nuitka/ccache/b/stats.lock
+[2022-12-07T17:11:24.842351 86807] Releasing lock /Users/joerg/Library/Caches/Nuitka/ccache/b/stats.lock
+[2022-12-07T17:11:24.842385 86807] Unlink /Users/joerg/Library/Caches/Nuitka/ccache/b/stats.lock
+[2022-12-07T17:11:24.842701 86807] Acquired lock /Users/joerg/Library/Caches/Nuitka/ccache/a/stats.lock
+[2022-12-07T17:11:24.842838 86807] Releasing lock /Users/joerg/Library/Caches/Nuitka/ccache/a/stats.lock
+[2022-12-07T17:11:24.842882 86807] Unlink /Users/joerg/Library/Caches/Nuitka/ccache/a/stats.lock
+[2022-12-07T17:11:24.843046 86807] Unlink /Users/joerg/Library/Caches/Nuitka/ccache/tmp/tmp.stderr.SPYXcG
+[2022-12-07T17:11:24.843069 86807] Unlink /Users/joerg/Library/Caches/Nuitka/ccache/tmp/tmp.stdout.HlrnLX
+[2022-12-07T17:11:24.843094 86807] Unlink /Users/joerg/Library/Caches/Nuitka/ccache/tmp/tmp.cpp_stderr.lCYmsR
+[2022-12-07T17:11:24.843133 86807] Unlink /Users/joerg/Library/Caches/Nuitka/ccache/tmp/tmp.cpp_stdout.BF1tGk.i
+[2022-12-07T17:11:24.843197 86807] Unlink /Users/joerg/Library/Caches/Nuitka/ccache/tmp/tmp.cpp_stdout.BF1tGk
+[2022-12-07T17:11:24.876971 86847] Got result name from preprocessor
+[2022-12-07T17:11:24.877051 86847] No result with name df9ap6iqg5tjlh7ga1sp002bgscshfbmm in the cache
+[2022-12-07T17:11:24.877062 86847] Running real compiler
+[2022-12-07T17:11:24.877229 86847] Executing /usr/bin/clang -flto -std=c11 -fvisibility=hidden -fwrapv -pipe -w -fvisibility=hidden -fvisibility-inlines-hidden --target=x86_64-apple-macos10.9 -O3 -D_XOPEN_SOURCE -D__NUITKA_NO_ASSERT__ -D_NUITKA_CONSTANTS_FROM_MACOS_SECTION -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -I/Users/joerg/opt/anaconda3/envs/pyside2_dev/include/python3.10 -I. -I/Users/joerg/opt/anaconda3/envs/pyside2_dev/lib/python3.10/site-packages/nuitka/build/include -I/Users/joerg/opt/anaconda3/envs/pyside2_dev/lib/python3.10/site-packages/nuitka/build/static_src -c -fcolor-diagnostics -o static_src/InspectPatcher.o static_src/InspectPatcher.c
+[2022-12-07T17:11:25.016669 86847] Using default compression level 1
+[2022-12-07T17:11:25.016755 86847] Storing result static_src/InspectPatcher.o
+[2022-12-07T17:11:25.016770 86847] Storing embedded file #0 .o (19664 bytes) from static_src/InspectPatcher.o
+[2022-12-07T17:11:25.017089 86847] Stored in cache: /Users/joerg/Library/Caches/Nuitka/ccache/d/f/9ap6iqg5tjlh7ga1sp002bgscshfbmmR
+[2022-12-07T17:11:25.017131 86847] Adding result name to /Users/joerg/Library/Caches/Nuitka/ccache/7/f/0cddodcm067bvok5tha9i8jtbbtu7tsM
+[2022-12-07T17:11:25.019997 86847] Using default compression level 1
+[2022-12-07T17:11:25.020652 86847] Result: cache miss
+[2022-12-07T17:11:25.020726 86847] Acquired lock /Users/joerg/Library/Caches/Nuitka/ccache/7/stats.lock
+[2022-12-07T17:11:25.020916 86847] Releasing lock /Users/joerg/Library/Caches/Nuitka/ccache/7/stats.lock
+[2022-12-07T17:11:25.020946 86847] Unlink /Users/joerg/Library/Caches/Nuitka/ccache/7/stats.lock
+[2022-12-07T17:11:25.020990 86847] Acquired lock /Users/joerg/Library/Caches/Nuitka/ccache/d/stats.lock
+[2022-12-07T17:11:25.021140 86847] Releasing lock /Users/joerg/Library/Caches/Nuitka/ccache/d/stats.lock
+[2022-12-07T17:11:25.021163 86847] Unlink /Users/joerg/Library/Caches/Nuitka/ccache/d/stats.lock
+[2022-12-07T17:11:25.021189 86847] Unlink /Users/joerg/Library/Caches/Nuitka/ccache/tmp/tmp.stderr.Z2GRDy
+[2022-12-07T17:11:25.021211 86847] Unlink /Users/joerg/Library/Caches/Nuitka/ccache/tmp/tmp.stdout.DxJZQd
+[2022-12-07T17:11:25.021231 86847] Unlink /Users/joerg/Library/Caches/Nuitka/ccache/tmp/tmp.cpp_stderr.Kh1t8l
+[2022-12-07T17:11:25.021272 86847] Unlink /Users/joerg/Library/Caches/Nuitka/ccache/tmp/tmp.cpp_stdout.M7atWS.i
+[2022-12-07T17:11:25.021344 86847] Unlink /Users/joerg/Library/Caches/Nuitka/ccache/tmp/tmp.cpp_stdout.M7atWS
+[2022-12-07T17:11:25.148330 86811] Using default compression level 1
+[2022-12-07T17:11:25.148415 86811] Storing result static_src/CompiledGeneratorType.o
+[2022-12-07T17:11:25.148431 86811] Storing embedded file #0 .o (152816 bytes) from static_src/CompiledGeneratorType.o
+[2022-12-07T17:11:25.149386 86811] Stored in cache: /Users/joerg/Library/Caches/Nuitka/ccache/d/9/31tu1nad4bbec5m9sasvaapl5203r9sR
+[2022-12-07T17:11:25.149430 86811] Adding result name to /Users/joerg/Library/Caches/Nuitka/ccache/3/6/713i3ua3i2d3kcfci7i0n1hoitla68eM
+[2022-12-07T17:11:25.152191 86811] Using default compression level 1
+[2022-12-07T17:11:25.152755 86811] Result: cache miss
+[2022-12-07T17:11:25.152822 86811] Acquired lock /Users/joerg/Library/Caches/Nuitka/ccache/3/stats.lock
+[2022-12-07T17:11:25.153269 86811] Releasing lock /Users/joerg/Library/Caches/Nuitka/ccache/3/stats.lock
+[2022-12-07T17:11:25.153301 86811] Unlink /Users/joerg/Library/Caches/Nuitka/ccache/3/stats.lock
+[2022-12-07T17:11:25.153613 86811] Acquired lock /Users/joerg/Library/Caches/Nuitka/ccache/d/stats.lock
+[2022-12-07T17:11:25.153780 86811] Releasing lock /Users/joerg/Library/Caches/Nuitka/ccache/d/stats.lock
+[2022-12-07T17:11:25.153810 86811] Unlink /Users/joerg/Library/Caches/Nuitka/ccache/d/stats.lock
+[2022-12-07T17:11:25.153963 86811] Unlink /Users/joerg/Library/Caches/Nuitka/ccache/tmp/tmp.stderr.pwLDrA
+[2022-12-07T17:11:25.153985 86811] Unlink /Users/joerg/Library/Caches/Nuitka/ccache/tmp/tmp.stdout.lrKa0Q
+[2022-12-07T17:11:25.154007 86811] Unlink /Users/joerg/Library/Caches/Nuitka/ccache/tmp/tmp.cpp_stderr.DNww3X
+[2022-12-07T17:11:25.154054 86811] Unlink /Users/joerg/Library/Caches/Nuitka/ccache/tmp/tmp.cpp_stdout.G67ymn.i
+[2022-12-07T17:11:25.154119 86811] Unlink /Users/joerg/Library/Caches/Nuitka/ccache/tmp/tmp.cpp_stdout.G67ymn
+[2022-12-07T17:11:28.298966 86810] Using default compression level 1
+[2022-12-07T17:11:28.299051 86810] Storing result static_src/CompiledFunctionType.o
+[2022-12-07T17:11:28.299065 86810] Storing embedded file #0 .o (1171072 bytes) from static_src/CompiledFunctionType.o
+[2022-12-07T17:11:28.302734 86810] Stored in cache: /Users/joerg/Library/Caches/Nuitka/ccache/4/c/ad6ra2kp5i1i60flao3pon08bt6dcaqR
+[2022-12-07T17:11:28.302780 86810] Adding result name to /Users/joerg/Library/Caches/Nuitka/ccache/b/0/70eipfv0o57ih2pl86cguv85lqmi72gM
+[2022-12-07T17:11:28.306100 86810] Using default compression level 1
+[2022-12-07T17:11:28.306733 86810] Result: cache miss
+[2022-12-07T17:11:28.306797 86810] Acquired lock /Users/joerg/Library/Caches/Nuitka/ccache/b/stats.lock
+[2022-12-07T17:11:28.306964 86810] Releasing lock /Users/joerg/Library/Caches/Nuitka/ccache/b/stats.lock
+[2022-12-07T17:11:28.306993 86810] Unlink /Users/joerg/Library/Caches/Nuitka/ccache/b/stats.lock
+[2022-12-07T17:11:28.307028 86810] Acquired lock /Users/joerg/Library/Caches/Nuitka/ccache/4/stats.lock
+[2022-12-07T17:11:28.307171 86810] Releasing lock /Users/joerg/Library/Caches/Nuitka/ccache/4/stats.lock
+[2022-12-07T17:11:28.307198 86810] Unlink /Users/joerg/Library/Caches/Nuitka/ccache/4/stats.lock
+[2022-12-07T17:11:28.307228 86810] Unlink /Users/joerg/Library/Caches/Nuitka/ccache/tmp/tmp.stderr.8nJNVi
+[2022-12-07T17:11:28.307255 86810] Unlink /Users/joerg/Library/Caches/Nuitka/ccache/tmp/tmp.stdout.q77syi
+[2022-12-07T17:11:28.307277 86810] Unlink /Users/joerg/Library/Caches/Nuitka/ccache/tmp/tmp.cpp_stderr.wmqooT
+[2022-12-07T17:11:28.307316 86810] Unlink /Users/joerg/Library/Caches/Nuitka/ccache/tmp/tmp.cpp_stdout.JFthKT.i
+[2022-12-07T17:11:28.307432 86810] Unlink /Users/joerg/Library/Caches/Nuitka/ccache/tmp/tmp.cpp_stdout.JFthKT
